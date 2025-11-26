@@ -1,0 +1,33 @@
+Test Cases - SKU_List_GTVL,,,,,,,,,
+Test Case ID,Module Name,Test Scenario,Test case description,Pre requisite,Steps,Test data,Expected Result,Actual Result,Status
+TC_SKU_001,GTVL_Management SKU_List,Search Functionality,Verify that user can search SKUs by keyword,User must be logged in,"1. Navigate to SKU page
+2. Enter text in Search field
+3. Validate results",Search = 'snack',Only SKUs matching the keyword should be displayed,Only SKUs matching the keyword displayed,Pass
+TC_SKU_002,GTVL_Management SKU_List,Category Filter,Verify that selecting a category filters SKU results,User must be logged in,"1. Select category dropdown
+2. Choose 'Snacks'
+3. Validate results",Category = Confectionary,Only SKUs of selected category should be shown,Only SKUs of selected category is displayed.,Pass
+TC_SKU_003,GTVL_Management SKU_List,Status Filter,Verify filtering of active/inactive SKUs,User must be logged in,"1. Select Status dropdown
+2. Choose Active
+3. Validate results",Status = Active,Only Active SKUs should be displayed,Only Active SKUs displayed,Pass
+TC_SKU_004,GTVL_Management SKU_List,Add New SKU Button,Verify that user can navigate to Add SKU form,User must be logged in,1. Click 'Add New SKU' button,N/A,Add SKU form should open,Add SKU form opened,Pass
+TC_SKU_005,GTVL_Management SKU_List, SKU List Sorting,"Verify sorting by SKU code, product name, category, unit price, status",User must be logged in,"1. Click sorting icon on column headers
+2. Validate order",N/A,Rows should sort correctly,Rows sorted correctly,Pass
+TC_SKU_006,GTVL_Management SKU_List,View details button ,Verify that the view details button in each row displays correct data of that product,User must be logged in,"1. click on view details button in perticular column.
+2. validate result",NA,Button click should display details of the product ,Its not showing details of the product,Fail
+TC_SKU_007,GTVL_Management SKU_List,Edit SKU button ,Verify that the edit SKU button in each row allows to edit product details,User must be logged in,"1. click on Edit SKU button in perticular column.
+2. validate result",NA,Button click should open new window to edit details of the product ,Its not showing new window to edit details of the product,Fail
+TC_SKU_008,GTVL_Management SKU_List,Delete SKU button ,Verify that the Delete SKU button in each row allows to delete product.,User must be logged in,"1. click on Delete SKU button in perticular column.
+2. validate result",NA,Button click should display confirmation window,Its not showing confirmation window,Fail
+TC_SKU_009,GTVL_Management SKU_List,Clear result button,Verify that the clear result button clears all conditions,User must be logged in,1. Click on clear result button.,N/A,All records in SKU_list should be displayed.,All records in SKU_list are displayed.,Pass
+TC_SKU_010,GTVL_Management SKU_List,Import SKUs button,Verify that the import SKUs button redirects to defined page,User must be logged in,"1. Click on Import SKUs button
+2. Validate result",NA,Button click should be redirected to page for importing SKUs list,Button click redirected to page for importing SKUs list,Pass
+TC_SKU_011,GTVL_Management SKU_List,Count in search,Verify that the count shown in after search is correct,User must be logged in,"1. Add 'sn' in search box to search for snacks
+2. Validate result",NA,Count should be equal to number of records present,Count shown correctly,Pass
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,

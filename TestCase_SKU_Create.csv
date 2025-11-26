@@ -1,0 +1,60 @@
+Test Cases - SKU_Create_GTVL,,,,,,,,,
+Test Case ID,Module Name,Test Scenario,Test case description,Pre requisite,Steps,Test data,Expected Result,Actual Result,Status
+TC_SKU_001,GTVL_Management SKU_Create,SKU Create Page,Verify Create SKU page loads properly,User must be logged in,1. Navigate to SKU module ? Create New SKU page,NA,Create SKU page loads properly,Create SKU page loaded properly,Pass
+TC_SKU_002,GTVL_Management SKU_Create,SKU Code,Verify SKU Code is required,User must be logged in,"1. Navigate to SKU_Create page
+2. Leave SKU code blank.
+3. Click on Create SKU",NA,SKU Code is required,Not able to click on Create SKU,Pass
+TC_SKU_003,GTVL_Management SKU_Create,SKU Code,Enter invalid SKU code like SNACK-124,User must be logged in,"1. Navigate to SKU_Create page
+2. Enter invalid SKU Code
+3. Click on Create SKU",Snack 124,It should not accept data,SKU created successfully,Fail
+TC_SKU_004,GTVL_Management SKU_Create,SKU Code,Verify SKU Code accepts valid alphanumeric input,User must be logged in,"1. Navigate to SKU_Create page
+2. Enter SKU code 
+3. Fill other details 
+4. Submit",GTVL-CONF-009,SKU should be created successfully,SKU created successfully,Pass
+TC_SKU_005,GTVL_Management SKU_Create,SKU Code,Verify unique SKU Code validation,"User must be logged in
+SKU code already exists in DB","1. Navigate to SKU_Create page
+2. Enter duplicate SKU code 
+3. Fill other details 
+4. Submit",GTVL-CONF-009,Error message: “SKU Code already exists”,This barcode already exists,Pass
+TC_SKU_006,GTVL_Management SKU_Create,BarCode,Enter invalid Barcode having letters in it.,User must be logged in,"1. Navigate to SKU_Create page
+2. Enter invalid BarCode
+3. Click on Create SKU",6543f099,It should not accept data,SKU created successfully,Fail
+TC_SKU_007,GTVL_Management SKU_Create,Price,Enter letters in the price field and check the result,User must be logged in,"1. Navigate to SKU_Create page
+2. Enter invalid price
+3. Click on Create SKU",56tgh,Price should not be accepted,Price not accepted,Pass
+TC_SKU_008,GTVL_Management SKU_Create,Price,Verify Price accepts numeric values,User must be logged in,"1. Navigate to SKU_Create page
+2. Enter valid price
+3. Click on Create SKU",12.35,Price should be accepted,Price accepted,Pass
+TC_SKU_009,GTVL_Management SKU_Create,Category,Verify Category dropdown loads,User must be logged in,1. Click on Category dropdown,NA,It should show list of categories,List of categories not available,Fail
+TC_SKU_010,GTVL_Management SKU_Create,SKU Code,Verify max length SKU Code - validation on fields,User must be logged in,"1. Navigate to SKU_Create page
+2. Enter SKU code 
+3. Fill other details 
+4. Submit",SKU code > 25 digits,Validation error should appear,Message - Barcode available,Fail
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
