@@ -2,9 +2,9 @@ PlayWright README.md
 
 <img width="1919" height="858" alt="Screenshot 2025-11-27 141559" src="https://github.com/user-attachments/assets/6f8dd599-a8a8-4f91-a97b-57aa00f995c6" />
 
-[Day 1](#Day-1)
-[Tools](#Performance-Testing-Tools)
-[STLC](#Software-Testing-Life-Cycle)
+[Day 1](#day-1)
+[Tools](#performance-testing-tools)
+[STLC](#software-testing-life-cycle)
 
 
 
