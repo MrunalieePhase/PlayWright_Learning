@@ -78,7 +78,7 @@ In Scalability testing , the software application's effectiveness is determined 
 •	Stability: It determines whether the software product is stable in case of varying workloads.
 •	Reliability: It determines whether the software product is secure or not.
 
-Performance Testing Tools
+# Performance Testing Tools
 a)	Apache JMeter: is an open-source tool used for performance testing and load testing of applications. It simulates multiple users sending requests to a server, collecting performance metrics to analyze the application's behavior under different load conditions.
 b)	Open STA (Open, Systems Testing Architecture) Apache JMeter is an open-source tool used for performance testing and measuring the load and stress on web applications. Its main function is to simulate multiple users accessing a site simultaneously to evaluate its performance and scalability.
 c)	Load Runner: LoadRunner is a performance testing tool used to simulate virtual users and analyze the behavior of applications under load. It helps identify performance bottlenecks by measuring system performance and response times under varying conditions.
