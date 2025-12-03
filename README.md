@@ -5,6 +5,7 @@ PlayWright README.md
 - [Day 1](#day-1)
 - [Tools](#performance-testing-tools)
 - [STLC](#software-testing-life-cycle)
+- [Notes](#notes)
 
 
 
@@ -22,8 +23,7 @@ PlayWright README.md
 
 
 
-
-#Day 1
+# Day 1
 
 
 
@@ -139,7 +139,7 @@ Benefits of Software Testing
 Software Testing is a method to assess the functionality of the software program. The process checks whether the actual software matches the expected requirements and ensures the software is bug-free. The purpose of software testing is to identify the errors, faults, or missing requirements in contrast to actual requirements. It mainly aims at measuring the specification, functionality, and performance of a software program or application.
 
  
-
+# Notes
 
 
 1.	Saves Money
@@ -198,7 +198,7 @@ Software testing techniques
 =======================================================
 =======================================================
 
-Software Testing Life Cycle (STLC)
+# Software Testing Life Cycle (STLC)
 
 
 The Software Testing Life Cycle (STLC) is a process that verifies whether the Software Quality meets the expectations or not. STLC is an important process that provides a simple approach to testing through the step-by-step process, which we are discussing here. Software Testing Life Cycle (STLC) is a fundamental part of the Software Development Life Cycle (SDLC).
