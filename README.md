@@ -2,7 +2,7 @@ PlayWright README.md
 
 <img width="1919" height="858" alt="Screenshot 2025-11-27 141559" src="https://github.com/user-attachments/assets/6f8dd599-a8a8-4f91-a97b-57aa00f995c6" />
 
-[Day1](#Day-1)
+[Day 1](#Day-1)
 [Tools](#Performance-Testing-Tools)
 [STLC](#Software-Testing-Life-Cycle)
 
@@ -23,7 +23,7 @@ PlayWright README.md
 
 
 
-Day 1
+#Day 1
 
 
 
@@ -72,7 +72,7 @@ In Volume testing , a large number of data is saved in a database and the overal
 
 In Scalability testing , the software application's effectiveness is determined by scaling up to support an increase in user load. It helps in planning capacity additions to your software system.
 
-Performance Testing Attributes
+#Performance Testing Attributes
 •	Speed: It determines whether the software product responds rapidly.
 •	Scalability: It determines the amount of load the software product can handle at a time.
 •	Stability: It determines whether the software product is stable in case of varying workloads.
