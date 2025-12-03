@@ -30,7 +30,7 @@ Extra notes and resources.
 6.	System Testing is a type of software testing that evaluates the overall functionality and performance of a complete and fully integrated software solution. It tests if the system meets the specified requirements and if it is suitable for delivery to the end-users.
 ===========================================================
 
-##Notes
+## Notes
 
 1.	Gray Box Testing is a software testing technique that is a combination of the Black Box Testing technique and the White Box Testing technique. In the Black Box Testing technique, the tester is unaware of the internal structure of the item being tested and in White Box Testing the internal structure is known to the tester
 ===========================================================
